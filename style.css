@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.category-tab {
+  background-color: rgb(250, 238, 238);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 40px;
+  width: 60%;
+  margin: auto;
+}
+
+.category-tab button {
+  background-color: rgb(250, 238, 238);
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.category-tab button:hover {
+  background-color: black;
+  color: white;
+}
+
+.product-card {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-container {
+  background-color: white;
+  border-radius: 10px;
+  width: 250px;
+  padding: 15px;
+  position: relative;
+}
+
+.product-image {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px 10px 0 0;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  font-weight: 900;
+  margin: 0 5px;
+}
+
+.product-vendor {
+  color: #777;
+  /* float: right; */
+  display: inline-block;
+  right: 30px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-compare-at-price {
+  font-size: 16px;
+  color: #777;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.product-discount {
+  color: #d9534f;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.badge {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 800;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.cart {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
